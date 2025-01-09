@@ -1,0 +1,18 @@
+[[language]]
+name = "rust"
+auto-format = false
+
+
+[[language]]
+name = "cpp"
+auto-format = true
+
+[language-server.rust-analyzer.config.check]
+command = "clippy"
+
+[language-server.rust-analyzer.config]
+cachePriming.enable = false
+diagnostics.experimental.enable = true
+
+[language-server.rust-analyzer.config.cargo]
+allFeatures = true

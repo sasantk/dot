@@ -1,0 +1,17 @@
+[core]
+	nopager = false
+	notifications = true
+	cliptimeout = 45
+	autoimport = true
+	parsing = true
+	exportkeys = false
+[age]
+	usekeychain = false
+[mounts]
+	path = /Users/sasan/.local/share/gopass/stores/root
+[mounts "Password"]
+	path = /Users/sasan/.local/share/gopass/stores/Password
+[show]
+	safecontent = false
+[generate]
+	autoclip = false

@@ -1,0 +1,27 @@
+theme = catppuccin-frappe
+#command = /opt/homebrew/bin/fish --login --interactive
+font-family = JetBrainsMonoNL Nerd Font 
+cursor-style = block
+cursor-style-blink = false
+window-decoration = true
+window-padding-x = 10
+window-padding-y = 10
+window-padding-balance = true
+copy-on-select = clipboard
+shell-integration = fish
+shell-integration-features = no-cursor
+mouse-hide-while-typing = true
+mouse-scroll-multiplier = 2
+window-padding-balance = true 
+window-save-state = always
+auto-update-channel=tip
+keybind = super+i=inspector:toggle
+keybind = super+h=goto_split:left
+keybind = super+l=goto_split:right
+keybind = super+j=goto_split:bottom
+keybind = super+k=goto_split:top
+keybind = super+K=resize_split:up,10
+keybind = super+J=resize_split:down,10
+keybind = super+L=resize_split:right,10
+keybind = super+H=resize_split:left,10
+keybind = super+e=equalize_splits
